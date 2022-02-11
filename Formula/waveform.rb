@@ -9,6 +9,7 @@ class Waveform < Formula
 
   def install
     bin.install "waveform.py" => "waveform"
+    prefix.install "globals.py", "helpers.py", "post.py", "search.py", "setup.py", "wave_api.py"
   end
 
 end
