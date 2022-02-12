@@ -9,12 +9,13 @@ class Waveform < Formula
 
   def install
     bin.install "waveform.py" => "waveform"
-    prefix.install "waveform_globals.py",
-      "waveform_helpers.py",
-      "waveform_post.py",
-      "waveform_search.py",
-      "waveform_setup.py",
-      "waveform_wave.py"
+    mkdir "#{bin}/lib"
+    mv "lib/waveform_globals.py", "#{bin}/lib/"
+    mv "lib/waveform_helpers.py", "#{bin}/lib/"
+    mv "lib/waveform_post.py", "#{bin}/lib/"
+    mv "lib/waveform_search.py", "#{bin}/lib/"
+    mv "lib/waveform_setup.py", "#{bin}/lib/"
+    mv "lib/waveform_wave.py", "#{bin}/lib/"
   end
   test do
     system "false"
