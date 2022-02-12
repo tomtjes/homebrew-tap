@@ -1,8 +1,8 @@
 class Waveform < Formula
   desc "Uploads transactions from a csv file to a waveapps.com account"
   homepage "https://github.com/tomtjes/waveform"
-  url "https://github.com/tomtjes/waveform/archive/refs/tags/v0.3.2.tar.gz"
-  sha256 "b5ca11d74fd7c7221da7963aeb31a879cda016b14f2fbae6583200ed89971e61"
+  url "https://github.com/tomtjes/waveform/archive/refs/tags/v0.3.3.tar.gz"
+  sha256 "276d3f20a24f78941647925d315f094814745f549cb6671ddfed855b102d3473"
   license "MIT"
 
   depends_on "python@3.9"
