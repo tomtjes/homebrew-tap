@@ -16,7 +16,6 @@ class Waveform < Formula
       "waveform_setup.py",
       "waveform_wave.py"
   end
-
   test do
     system "false"
   end
